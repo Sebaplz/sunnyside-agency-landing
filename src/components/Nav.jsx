@@ -29,9 +29,9 @@ function Nav() {
       </div>
 
       <ul
-        className={`absolute mt-5 w-[21rem] bg-white pb-10 text-center md:relative md:mt-0 md:flex md:w-auto md:items-center md:bg-inherit md:pb-0  ${
+        className={`absolute mt-5 w-[21rem] bg-white pb-10 text-center md:relative md:mt-0 md:flex md:w-auto md:items-center md:bg-inherit md:pb-0 ${
           open ? "opacity-100" : "top-[-490px]"
-        } opacity-0 transition-all duration-500 ease-in md:opacity-100`}
+        }  md:opacity-100`}
       >
         {Links.map((link) => (
           <li
