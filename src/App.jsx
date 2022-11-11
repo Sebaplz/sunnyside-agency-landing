@@ -4,7 +4,7 @@ import Nav from "./components/Nav";
 function App() {
   return (
     <main>
-      <section className="h-[32rem] bg-[url('images/mobile/image-header.jpg')] bg-cover bg-center bg-no-repeat md:bg-[url('images/desktop/image-header.jpg')] lg:h-[36rem] xl:h-[38rem] 2xl:h-[50rem]">
+      <section className="h-[32rem] bg-[url('/images/mobile/image-header.jpg')] bg-cover bg-center bg-no-repeat md:bg-[url('/images/desktop/image-header.jpg')] lg:h-[36rem] xl:h-[38rem] 2xl:h-[50rem]">
         <Nav />
         <div className="py-10 2xl:py-28">
           <h1 className="font-fraunces text-center text-5xl font-bold uppercase tracking-widest text-white 2xl:text-8xl">
@@ -80,7 +80,7 @@ function App() {
       </div>
 
       <div className="lg:flex">
-        <div className="h-[38rem] bg-[url('images/mobile/image-graphic-design.jpg')] bg-cover px-5  text-center md:bg-[url('images/desktop/image-graphic-design.jpg')] md:px-40 lg:w-1/2 lg:bg-center lg:px-20 lg:pt-32 xl:p-36 2xl:h-[50rem] 2xl:px-48">
+        <div className="h-[38rem] bg-[url('/images/mobile/image-graphic-design.jpg')] bg-cover px-5  text-center md:bg-[url('/images/desktop/image-graphic-design.jpg')] md:px-40 lg:w-1/2 lg:bg-center lg:px-20 lg:pt-32 xl:p-36 2xl:h-[50rem] 2xl:px-48">
           <p className="font-fraunces pt-96 pb-5 text-4xl font-bold text-[#25564B] lg:pt-60 2xl:pt-96 2xl:text-6xl">
             Graphic design
           </p>
@@ -90,7 +90,7 @@ function App() {
             attention.
           </p>
         </div>
-        <div className="h-[38rem] bg-[url('images/mobile/image-photography.jpg')] bg-cover px-5  text-center md:bg-[url('images/desktop/image-photography.jpg')] md:px-40 lg:w-1/2 lg:bg-center lg:px-20 lg:pt-32 xl:p-36 2xl:h-[50rem] 2xl:px-48">
+        <div className="h-[38rem] bg-[url('/images/mobile/image-photography.jpg')] bg-cover px-5  text-center md:bg-[url('/images/desktop/image-photography.jpg')] md:px-40 lg:w-1/2 lg:bg-center lg:px-20 lg:pt-32 xl:p-36 2xl:h-[50rem] 2xl:px-48">
           <p className="font-fraunces pt-96 pb-5 text-4xl font-bold text-[#19536B] lg:pt-60 2xl:pt-96 2xl:text-6xl">
             Photography
           </p>
@@ -213,7 +213,7 @@ function App() {
       </div>
       <div
         id="contacts"
-        className="bg-[#67cfba] py-10 px-5 md:px-52 lg:px-80 xl:px-[34rem] 2xl:px-[58rem]"
+        className="bg-[#67cfba] py-10 px-5 md:px-52 lg:px-80 xl:px-[34rem]"
       >
         <p className="pb-5 text-center text-4xl font-black text-[#34685d] 2xl:text-5xl">
           sunnyside
